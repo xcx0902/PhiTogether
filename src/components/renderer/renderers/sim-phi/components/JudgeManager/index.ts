@@ -41,9 +41,9 @@ interface NoteExtends {
 
 export const judgeManager = {
     time: {
-        p: 0.08,
-        g: 0.16,
-        AP: 0.04,
+        p: 0.16,
+        g: 0.32,
+        AP: 0.08,
     } as JudgeTime,
 
     setJudgeTime(p: number = 0.08, g: number = 0.16, AP: number = 0.04): void {
