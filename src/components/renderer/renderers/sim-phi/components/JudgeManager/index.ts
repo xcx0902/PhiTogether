@@ -46,7 +46,7 @@ export const judgeManager = {
         AP: 0.08,
     } as JudgeTime,
 
-    setJudgeTime(p: number = 0.08, g: number = 0.16, AP: number = 0.04): void {
+    setJudgeTime(p: number = 0.16, g: number = 0.32, AP: number = 0.08): void {
         this.time.p = p;
         this.time.g = g;
         this.time.AP = AP;
