@@ -36,7 +36,7 @@ jobs:
                   git config --global user.name "${{ github.event.release.author.login }}"
                   git add package.json
                   git commit -m "[Release] Update to v$VERSION"
-                  git push origin HEAD:main
+                  git push origin HEAD:main -f
 
             - name: Install dependencies and Build
               run: |
